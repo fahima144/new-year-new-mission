@@ -1,0 +1,73 @@
+.body{
+    font-family: 'Merriweather', serif;
+    width: 1320px;
+    height: 600px;
+    background-position: center;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    padding: 344px;
+    text-align: center;
+}
+.container{
+    position: relative;
+    
+}
+.text-block{
+    position: absolute;
+    bottom: 100px;
+    border-radius: 16px;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    color: white;
+    padding-left: 344px;
+    padding-right: 344px;
+    border-radius: 16px;
+    background-position: center;
+    
+}
+
+.title{
+    font-size: 32px
+    font-weight: 400;
+    padding-left: 344px;
+    padding-right: 344px;
+    margin-left: 32px;
+    margin-right:40px;
+}
+
+.greeting{
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    margin: 72px 95px;
+}
+
+section{
+    text-align: center;
+    padding: 150px;
+}
+
+.off{
+    width: 1600px;
+    height: 7335px;
+}
+
+.section-title{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700
+    padding: 88px 107px;
+}
+
+.section-greeting{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    padding:48px 0px 0px 0px
+}
+
+.section-description{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0px;
+    gap: 0;
+}
