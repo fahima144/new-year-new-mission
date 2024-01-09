@@ -80,6 +80,9 @@ section{
     position: relative;
 }
 
+.party{
+    padding: 200px;
+}
 
 .type{
     position: absolute;
@@ -116,4 +119,158 @@ section{
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+}
+    
+
+.about{
+    background-position: center;
+    background: antiquewhite;
+    width: 1320px;
+    height: 482px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin-left: 600px;
+}
+
+.text-primary{
+    color: #F00;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px; 
+    text-transform: capitalize
+}
+
+.info-title{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.join-now{
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+}
+
+.offer{
+    /* width: 1600px;
+    height: 7335px; */
+    /* background: #FFF; */
+    background-position: center;
+    padding: 140px;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer-title{
+    color: #F00;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-greeting{
+    color: #070211;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+/* .offer-description{ */
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+/* .img-ellipse{ */
+    /* width: 1600px;
+    height: 7335px; */
+    background-position: center;
+    /* width: 463px;
+    height: 463px; */
+    border: 15px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    width: 370.880px;
+    height: 370.880px;
+}
+
+.offer{
+    padding: 130px;
+    border-radius: 10px;
+}
+
+.offer-year{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer-year-detail{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.offer-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer-info-container, .offer-info{
+    border-radius: 5px;
+    margin: 10px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 5px 10px black;
+    box-shadow: none;
+    
+}
+
+.Portfolio-title{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.Portfolio-greeting{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.Portfolio-description{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+.Portfolio-container{
+    display: flex;
+    gap: 24px;
+}
+.bag{
+    list-style: none;
 }
